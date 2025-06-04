@@ -427,3 +427,50 @@ header .container-grid {
     background-color: var(--verde-pixelV);
 
 }
+
+footer{
+    height: 250px;
+    background-image: url(./imgs/footer.png);
+}
+
+footer img{
+    height: 90px;
+}
+
+footer .container-grid{
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes-sociais{
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.redes-sociais p{
+    color: var(--branco);
+    font-family: "recursive", sans-linear-bold;
+    font-size: 24px;
+}
+.icones-redes{
+    width: 240px;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.icones-redes a{
+    color: var(--branco);
+}
+
+.icones-redes a:hover{
+    color: var(--verde-pixelV);
+}
